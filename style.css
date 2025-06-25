@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+header {
+    border: solid 10px var(--cor-2);
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    color: var(--cor-1)
+}
+
+
+:root {
+    --cor-1: #000000; 
+    --cor-2: #040c77;
+    --cor-3: #03036d;
+    --cor-p: #ff0055; 
+}
+
+body {
+    font-family: 'Chakra Pecht', sana-serif;
+    color: rgb(0, 0, 0);
+    background: rgb(182, 155, 2);
+    margin: 40px;
+}
+
+h1, h2 {
+    border: solid 4px  rgb(255, 0, 0);
+    background: rgb(255, 215, 0);
+    margin: 0px;
+}
+
+.container{
+    background-color: rgb(83, 2, 2);
+    border: solid 4px rgb(255, 0, 0);
+    color: rgb(255, 196, 0);
+}
+
+h1, h2, h3, h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.bg-secondary {
+    color: rgb(255, 196, 0);
+    background-color: #ff0000;
+}
+
+.lead, .btn-link {
+    color: rgb(83, 2, 2);
+    font-weight: 700;
+    border: solid 3px  rgb(83, 2, 2);
+    background: rgb(255, 196, 0);
+    margin: 0px;
+}
+
+a, .btn-link:hover {
+    color: rgb(255, 196, 0);
+    border: solid 3px  rgb(255, 196, 0);
+    background: rgb(83, 2, 2);
+    margin: 0px;
+}
+
+a:hover {
+    color: rgb(83, 2, 2);
+    border: solid 3px  rgb(83, 2, 2);
+    background: rgb(255, 196, 0);
+    margin: 0px;
+}
+ 
+img {
+    border: solid 2px #ff0000;
+}
+
+.card{
+   color: #8f0303;
+   background-color: rgb(255, 196, 0);
+   border: solid 2px #ff0000;
+   
+}
+
+.modal-body, .modal-header, .modal-footer, .modal-content {
+   background-color: rgb(255, 196, 0);
+   border: solid 1px #ff0000;
+}
+
+.btn-primary {
+    font-weight: 200;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portifólio</title>
+</head>
+<body>
+    <header class="container text-center">
+        <img src="img/otario.png" alt="meu avatar" class="rounded-circle" width="250" height="250" srcset="">
+        <p class="lead">Eu sou Pedro Otávio</p>
+        <h1>Eu estudo programação</h1>
+        <p>Sou estudante da escola Antônio Berreta</p>
+        <p>Minhas habilidades:</p>
+        <p>Tenho um pouco experiência na linguagem de programação JavaScript por ter criado diversos projetos no "P5.js".</p>
+        <p>Consigo programar códigos para placas de "microbit" utilizando o programa "Make Code" que utiliza linguagem JavaScript e de "blocos".</p>
+        <p>Tenho habilidade em liderar pessoas por ser o lider do grêmio "Mufasa" da escola Antônio Berreta.</p> 
+        <div>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Html CSS</p>
+            <p class="badge bg-secondary">Make Code</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5 py-2 text-center">
+        <h2 class= "mt-3">Meus principais projetos</h2>
+        <div class="row mt-2">
+             <div class="col-md-4">
+                <div class="card">
+                    <img src="img/The Rock.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Arte interativa: The rock</h5>
+                        <p class="card-text">Este projeto é um desenho interativo que ao mover o mouse pela tela a pupila dele segue o mouse mas não sai do olho.</p>       
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/quente e frio.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Arte interativa: Quente e Frio Dinâmico</h5>
+                        <p class="card-text">É um jogo onde numa tela um ponto invisivel é criado e o jogador tem que procura-lo com o mouse que possui um circulo que fica menor de acordo com a distancia entre o mouse e o ponto.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/corrida.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo de Corrida</h5>
+                        <p class="card-text">Este projeto é um jogo de corrida que pode ser jogado em 4 pessoas até feito pelo site "P5.js".</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- Modal -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Arte interativa: The rock </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/The Rock.png" alt="imagem monalisa">  
+      </div>
+      <div class="modal-footer">
+         <a href="https://editor.p5js.org/Rochapeo/full/1iThvIEKo" class="btn btn-primary">Ver o projeto ao vivo</a>
+         <a href="https://editor.p5js.org/Rochapeo/sketches/1iThvIEKo" class="btn btn-primary">Ver o código do projeto</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Arte interativa: Quente e Frio Dinâmico</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/quente e frio.png" alt="imagem da Corrida">  
+      </div>
+      <div class="modal-footer">
+         <a href="https://editor.p5js.org/Felps-2C-Berreta/full/uYGkp-g4t" class="btn btn-primary">Ver o projeto ao vivo</a>
+         <a href="https://editor.p5js.org/Felps-2C-Berreta/sketches/uYGkp-g4t" class="btn btn-primary">Ver o código do projeto</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Arte interativa: Jogo de Corrida </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/corrida.png" alt="imagem do Quente e Frio">  
+      </div>
+      <div class="modal-footer">
+         <a href="https://editor.p5js.org/Rochapeo/full/u5t1IecwW" class="btn btn-primary">Ver o projeto ao vivo</a>
+         <a href="https://editor.p5js.org/Rochapeo/sketches/u5t1IecwW" class="btn btn-primary">Ver o código do projeto</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <footer class="container mt-5 ">
+        <h2 class="mt-3 py-2">Entre em contato</h2>
+            <div class="py-2">        
+              <i class="bi-github"></i>
+              <a href="https://github.com/Felps195">Github</a>
+            </div>
+    <p class="my-5 text-center">@ Copyright 2025. Produzido Pedro Otávio</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
